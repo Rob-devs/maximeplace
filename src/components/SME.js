@@ -59,7 +59,7 @@ export const SME = () => {
     return (
         <section className='travaux'>
             <Container>
-                <h2>SME</h2>
+                <h2>Sourds et malentendants</h2>
                 <Col>
                     <Row>
                         {

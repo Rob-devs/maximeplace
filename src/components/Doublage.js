@@ -41,6 +41,42 @@ export const Doublage = () => {
             date: "12/2022",
             affiche: imgDoublage1,
         },
+        {
+            title: "Lookism",
+            description: "Script FR épisodes 1 et 2 dqzhdnbyhzqdh zuyqhd uzqhd uzhu dhzu dzud z huz hu zhuzh uefe",
+            date: "12/2022",
+            affiche: imgDoublage1,
+        },
+        {
+            title: "Oeuvre",
+            description: "Script FR épisodes 1 et 2 dqzhdnbyhzqdh zuyqhd uzqhd uzhu dhzu dzud z huz hu zhuzh uefe",
+            date: "12/2022",
+            affiche: imgDoublage1,
+        },
+        {
+            title: "A",
+            description: "Script FR épisodes 1 et 2 dqzhdnbyhzqdh zuyqhd uzqhd uzhu dhzu dzud z huz hu zhuzh uefe",
+            date: "12/2022",
+            affiche: imgDoublage1,
+        },
+        {
+            title: "z",
+            description: "Script FR épisodes 1 et 2 dqzhdnbyhzqdh zuyqhd uzqhd uzhu dhzu dzud z huz hu zhuzh uefe",
+            date: "12/2022",
+            affiche: imgDoublage1,
+        },
+        {
+            title: "FEFE",
+            description: "Script FR épisodes 1 et 2 dqzhdnbyhzqdh zuyqhd uzqhd uzhu dhzu dzud z huz hu zhuzh uefe",
+            date: "12/2022",
+            affiche: imgDoublage1,
+        },
+        {
+            title: "FEF EF EF E E FEFE",
+            description: "Script FR épisodes 1 et 2 dqzhdnbyhzqdh zuyqhd uzqhd uzhu dhzu dzud z huz hu zhuzh uefe",
+            date: "12/2022",
+            affiche: imgDoublage1,
+        },
     ];
 
     doublages.sort(function (a, b) {

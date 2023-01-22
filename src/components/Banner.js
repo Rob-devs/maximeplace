@@ -39,13 +39,13 @@ export const Banner = () => {
     }
 
     return (
-        <section className="nav-section" id="accueil">
+        <section className="fullpage-nav" id="accueil">
             <hgroup className="home-title">
                 <h1>MAXIME PLACE</h1>
                 <h2>{`Je travaille sur votre prochain `}<span className="wrap">{text}</span></h2>
             </hgroup>
             <div className="image-profil">
-                <img src={PP} className="rounded-circle mx-auto d-block" width="200" alt="Me" />
+                <img src={PP} id="profil-picture" className="rounded-circle mx-auto d-block" width="200" alt="Me" />
             </div>
             <div>
                 <div>

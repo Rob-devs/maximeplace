@@ -4,7 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState, useEffect } from "react";
-import navIcon from "../assets/images/linkedin.svg";
+import navIcon1 from "../assets/images/linkedin.svg";
+import navIcon2 from "../assets/images/ataa.svg";
 import logo from "../assets/images/logo.png";
 import CV_FR_MaximePlace from './CV_FR_MaximePlace.pdf';
 
@@ -68,7 +69,10 @@ const NavbarComp = () => {
                         <div className="social-icon">
                             <a href="#linkedin" onClick={() => {
                                 window.open("https://www.linkedin.com/in/maxime-place-170942b4/", '_blank').focus();
-                            }}><img src={navIcon} alt="LinkedIN" /></a>
+                            }}><img src={navIcon1} alt="LinkedIN" /></a>
+                            <a href="#ataa" onClick={() => {
+                                window.open("https://beta.ataa.fr/annuaire/M.Place", '_blank').focus();
+                            }}><img src={navIcon2} alt="ATAA" /></a>
                         </div>
                         <button className="vvd" onClick={() => console.log('connect')}><span>Contact</span></button>
                     </span>
