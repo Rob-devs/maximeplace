@@ -25,7 +25,11 @@ export const Banner = () => {
         setText(updatedText);
 
         if (isDeleting) {
-            setDelta(prevDelta => prevDelta / 2);
+            if (delta == 2000) {
+                setDelta(prevDelta => prevDelta / 4);
+            } else {
+                setDelta(prevDelta => prevDelta / 1.8);
+            }
         }
 
         if (!isDeleting && updatedText === fullText) {
@@ -34,7 +38,7 @@ export const Banner = () => {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setDelta(300);
+            setDelta(130);
         }
     }
 
