@@ -1,14 +1,18 @@
 import { Col } from 'react-bootstrap';
 
-export const Carte = ({ title, description, date, affiche }) => {
+export const Carte = ({ title, description, date, affiche, type, type_link, link, diffusion, labo }) => {
+
     return (
-        <Col sm={4} md={3} className="carte">
-            <div className="proj-img">
-                <img src={affiche} width='100%' />
+        <Col className="carte">
+            <div className="proj-div">
+                <img className="proj-img" src={require('../assets/images/work/' + affiche + '.png')} alt="Work" />
                 <div className="proj-txt">
                     <h4>{title}</h4>
-                    <h5>{date}</h5>
-                    <span>{description}</span>
+                    <h5>{type} - {date}</h5>
+                    <h6>Labo: {labo}</h6>
+                    <h6>Diffusion: {diffusion}</h6>
+                    <div className="proj-descr">{description}</div>
+                    <a href={link} target="_blank" className="proj-btn"><span className="proj-btn-span">{type_link}</span></a>
                 </div>
             </div>
         </Col>

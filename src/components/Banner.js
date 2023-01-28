@@ -1,4 +1,5 @@
 import PP from "../profil/PP.png";
+import go_down from "../assets/images/go_down.png";
 import { useState, useEffect } from "react";
 
 export const Banner = () => {
@@ -15,7 +16,7 @@ export const Banner = () => {
         }, delta)
 
         return () => { clearInterval(ticker) };
-    }, [text])
+    }, [text]) // eslint-disable-line react-hooks/exhaustive-deps
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -25,7 +26,7 @@ export const Banner = () => {
         setText(updatedText);
 
         if (isDeleting) {
-            if (delta == 2000) {
+            if (delta === 2000) {
                 setDelta(prevDelta => prevDelta / 4);
             } else {
                 setDelta(prevDelta => prevDelta / 1.8);
@@ -38,6 +39,8 @@ export const Banner = () => {
         } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
+            setDelta(700);
+        } else if (!isDeleting && updatedText.length === 1) {
             setDelta(130);
         }
     }
@@ -61,6 +64,9 @@ export const Banner = () => {
                     </p>
                 </div>
             </div>
+            <a className="image-go-down" href="#doublage" >
+                <img src={go_down} width="120" alt="Go down" />
+            </a>
         </section>
     )
 }

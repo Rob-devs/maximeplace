@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import navIcon1 from "../assets/images/linkedin.svg";
 import navIcon2 from "../assets/images/ataa.svg";
 import logo from "../assets/images/logo.png";
-import CV_FR_MaximePlace from './CV_FR_MaximePlace.pdf';
+import CV_FR_MaximePlace from '../profil//CV_FR_MaximePlace.pdf';
 
 const NavbarComp = () => {
 
