@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/maximeplace/static/css/main.8a075a8e.css",
-    "main.js": "/maximeplace/static/js/main.96856f05.js",
+    "main.css": "/maximeplace/static/css/main.aca51f16.css",
+    "main.js": "/maximeplace/static/js/main.f4e6f2d2.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/imgDoublage1.png": "/maximeplace/static/media/imgDoublage1.30c48945ea7bb73a1713.png",
+    "static/media/PigGoatBananaCricket.png": "/maximeplace/static/media/PigGoatBananaCricket.beb78224a2978a8f9aa0.png",
     "static/media/CV_FR_MaximePlace.pdf": "/maximeplace/static/media/CV_FR_MaximePlace.1b1278fe37a425a43ab3.pdf",
     "static/media/PP.png": "/maximeplace/static/media/PP.3c9a449a57fc5f214a4d.png",
     "static/media/bg6.png": "/maximeplace/static/media/bg6.915f66104764ba941f3a.png",
@@ -17,16 +18,17 @@
     "static/media/CentraNo2-Hairline.ttf": "/maximeplace/static/media/CentraNo2-Hairline.13d731eefcfe38310f49.ttf",
     "static/media/CentraNo2-Bold.ttf": "/maximeplace/static/media/CentraNo2-Bold.abdd83d4c93df29ce485.ttf",
     "static/media/CentraNo2-Medium.ttf": "/maximeplace/static/media/CentraNo2-Medium.e607ab3a57d6d01aabd4.ttf",
+    "static/media/go_down.png": "/maximeplace/static/media/go_down.6320669c1b9604bf9344.png",
     "static/media/logo.png": "/maximeplace/static/media/logo.ef67a90ac7e739c16c3d.png",
     "index.html": "/maximeplace/index.html",
     "static/media/ataa.svg": "/maximeplace/static/media/ataa.ce4fb1d487acb0565d44d34ea11c0319.svg",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
-    "main.8a075a8e.css.map": "/maximeplace/static/css/main.8a075a8e.css.map",
-    "main.96856f05.js.map": "/maximeplace/static/js/main.96856f05.js.map",
+    "main.aca51f16.css.map": "/maximeplace/static/css/main.aca51f16.css.map",
+    "main.f4e6f2d2.js.map": "/maximeplace/static/js/main.f4e6f2d2.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a075a8e.css",
-    "static/js/main.96856f05.js"
+    "static/css/main.aca51f16.css",
+    "static/js/main.f4e6f2d2.js"
   ]
 }
