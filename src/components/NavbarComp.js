@@ -2,31 +2,33 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState, useEffect } from "react";
 import navIcon1 from "../assets/images/linkedin.svg";
 import navIcon2 from "../assets/images/ataa.svg";
 import logo from "../assets/images/logo.png";
 import CV_FR_MaximePlace from '../profil//CV_FR_MaximePlace.pdf';
 
-const NavbarComp = () => {
+export const NavbarComp = () => {
 
     const [activeLink, setActiveLink] = useState('accueil');
     const [scrolled, setScrolled] = useState(false);
 
-    useEffect(() => {
-        const onScroll = () => {
-            if (window.scrollY > 50) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
+    const onScroll = () => {
+        if (window.scrollY > 50) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
         }
 
-        window.addEventListener("scroll", onScroll);
+        if (window.scrollY > 60) {
+            onUpdateActiveLink('travaux');
+        }
+        else {
+            onUpdateActiveLink('accueil');
+        }
+    }
 
-        return () => window.removeEventListener("scroll", onScroll);
-    })
+    window.addEventListener("scroll", onScroll);
 
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
@@ -55,22 +57,16 @@ const NavbarComp = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link className={activeLink === 'accueil' ? 'active item' : 'item'} href="#accueil" onClick={() => onUpdateActiveLink('accueil')}>Accueil</Nav.Link>
-                        <Nav.Link className={activeLink === 'cv' ? 'active item' : 'item'} onClick={() => { onUpdateActiveLink('cv'); handleDownload(); }} download={CV_FR_MaximePlace}>CV</Nav.Link>
-                        <NavDropdown title="Travaux" id={activeLink === 'travail' ? 'collasible-nav-dropdown' : 'item'}>
-                            <NavDropdown.Item href="#doublage" onClick={() => onUpdateActiveLink('travail')}>Doublage</NavDropdown.Item>
-                            <NavDropdown.Item href="#sous-titrage" onClick={() => onUpdateActiveLink('travail')}>Sous-titrage</NavDropdown.Item>
-                            <NavDropdown.Item href="#voice-over" onClick={() => onUpdateActiveLink('travail')}>Voice over</NavDropdown.Item>
-                            <NavDropdown.Item href="#jeux-video" onClick={() => onUpdateActiveLink('travail')}>Jeux vidéo</NavDropdown.Item>
-                            <NavDropdown.Item href="#sme" onClick={() => onUpdateActiveLink('travail')}>SME</NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link className={activeLink === 'accueil' ? 'active-item' : 'item'} href="#accueil">Accueil</Nav.Link>
+                        <Nav.Link className='item' onClick={() => { handleDownload(); }} download={CV_FR_MaximePlace}>CV</Nav.Link>
+                        <Nav.Link className={activeLink === 'travaux' ? 'active-item' : 'item'} href="#travaux">Travaux</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#linkedin" onClick={() => {
+                            <a onClick={() => {
                                 window.open("https://www.linkedin.com/in/maxime-place-170942b4/", '_blank').focus();
                             }}><img src={navIcon1} alt="LinkedIN" /></a>
-                            <a href="#ataa" onClick={() => {
+                            <a onClick={() => {
                                 window.open("https://beta.ataa.fr/annuaire/M.Place", '_blank').focus();
                             }}><img src={navIcon2} alt="ATAA" /></a>
                         </div>
@@ -81,5 +77,3 @@ const NavbarComp = () => {
         </Navbar>
     )
 }
-
-export default NavbarComp

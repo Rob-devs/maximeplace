@@ -64,7 +64,7 @@ export const Banner = () => {
                     </p>
                 </div>
             </div>
-            <a className="image-go-down" href="#doublage" >
+            <a className="image-go-down" href="#travaux" >
                 <img src={go_down} width="120" alt="Go down" />
             </a>
         </section>
