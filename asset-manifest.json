@@ -1,34 +1,34 @@
 {
   "files": {
-    "main.css": "/maximeplace/static/css/main.aca51f16.css",
-    "main.js": "/maximeplace/static/js/main.3e3c138d.js",
+    "main.css": "/maximeplace/static/css/main.e0165ef1.css",
+    "main.js": "/maximeplace/static/js/main.d7a768ab.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/imgDoublage1.png": "/maximeplace/static/media/imgDoublage1.30c48945ea7bb73a1713.png",
     "static/media/PigGoatBananaCricket.png": "/maximeplace/static/media/PigGoatBananaCricket.beb78224a2978a8f9aa0.png",
     "static/media/CV_FR_MaximePlace.pdf": "/maximeplace/static/media/CV_FR_MaximePlace.1b1278fe37a425a43ab3.pdf",
     "static/media/PP.png": "/maximeplace/static/media/PP.3c9a449a57fc5f214a4d.png",
-    "static/media/bg6.png": "/maximeplace/static/media/bg6.915f66104764ba941f3a.png",
-    "static/media/bg1.png": "/maximeplace/static/media/bg1.f9dc5aa9a1dc541f85e6.png",
-    "static/media/bg3.png": "/maximeplace/static/media/bg3.d45b46bf9817b94c7179.png",
-    "static/media/bg2.png": "/maximeplace/static/media/bg2.995fa55d67492324abbb.png",
-    "static/media/bg4.png": "/maximeplace/static/media/bg4.c2d40872005cb8c2b40e.png",
-    "static/media/bg5.png": "/maximeplace/static/media/bg5.2d456682e6203cad7667.png",
+    "static/media/bg_sme.png": "/maximeplace/static/media/bg_sme.915f66104764ba941f3a.png",
+    "static/media/bg_banner.png": "/maximeplace/static/media/bg_banner.f9dc5aa9a1dc541f85e6.png",
+    "static/media/bg_soustitrage.png": "/maximeplace/static/media/bg_soustitrage.d45b46bf9817b94c7179.png",
+    "static/media/bg_doublage.png": "/maximeplace/static/media/bg_doublage.995fa55d67492324abbb.png",
+    "static/media/bg_voiceover.png": "/maximeplace/static/media/bg_voiceover.c2d40872005cb8c2b40e.png",
+    "static/media/bg_jeuxvideo.png": "/maximeplace/static/media/bg_jeuxvideo.2d456682e6203cad7667.png",
     "static/media/CentraNo2-Book.ttf": "/maximeplace/static/media/CentraNo2-Book.89a30f8e5b776bc654bd.ttf",
     "static/media/CentraNo2-Thin.ttf": "/maximeplace/static/media/CentraNo2-Thin.7d398cc82d583935412d.ttf",
     "static/media/CentraNo2-Hairline.ttf": "/maximeplace/static/media/CentraNo2-Hairline.13d731eefcfe38310f49.ttf",
     "static/media/CentraNo2-Bold.ttf": "/maximeplace/static/media/CentraNo2-Bold.abdd83d4c93df29ce485.ttf",
     "static/media/CentraNo2-Medium.ttf": "/maximeplace/static/media/CentraNo2-Medium.e607ab3a57d6d01aabd4.ttf",
     "static/media/go_down.png": "/maximeplace/static/media/go_down.6320669c1b9604bf9344.png",
-    "static/media/logo.png": "/maximeplace/static/media/logo.ef67a90ac7e739c16c3d.png",
+    "static/media/logo.png": "/maximeplace/static/media/logo.b2c4cc387d1517228a03.png",
     "static/media/ataa.svg": "/maximeplace/static/media/ataa.30455ad7c5b923c1f0ad1aa6dfe70803.svg",
     "index.html": "/maximeplace/index.html",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
-    "main.aca51f16.css.map": "/maximeplace/static/css/main.aca51f16.css.map",
-    "main.3e3c138d.js.map": "/maximeplace/static/js/main.3e3c138d.js.map",
+    "main.e0165ef1.css.map": "/maximeplace/static/css/main.e0165ef1.css.map",
+    "main.d7a768ab.js.map": "/maximeplace/static/js/main.d7a768ab.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aca51f16.css",
-    "static/js/main.3e3c138d.js"
+    "static/css/main.e0165ef1.css",
+    "static/js/main.d7a768ab.js"
   ]
 }
