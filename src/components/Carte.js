@@ -12,7 +12,7 @@ export const Carte = ({ title, description, date, affiche, type, type_link, link
                     <h6>Labo: {labo}</h6>
                     <h6>Diffusion: {diffusion}</h6>
                     {/* <div className="proj-descr">{description}</div> */}
-                    <a href={link} target="_blank" className="proj-btn"><span className="proj-btn-span">{type_link}</span></a>
+                    <a href={link} target="_blank" className="proj-btn" rel="noreferrer"><span className="proj-btn-span">{type_link}</span></a>
                 </div>
             </div>
         </Col>

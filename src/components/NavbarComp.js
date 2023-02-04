@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import navIcon1 from "../assets/images/linkedin.svg";
 import navIcon2 from "../assets/images/ataa.svg";
 import logo from "../assets/images/logo.png";
@@ -34,7 +35,7 @@ export const NavbarComp = () => {
         setActiveLink(value);
     }
 
-    const [downloadUrl, setDownloadUrl] = useState(CV_FR_MaximePlace);
+    const [downloadUrl] = useState(CV_FR_MaximePlace);
 
     const handleDownload = async () => {
         const response = await fetch(downloadUrl);
@@ -70,7 +71,7 @@ export const NavbarComp = () => {
                                 window.open("https://beta.ataa.fr/annuaire/M.Place", '_blank').focus();
                             }}><img src={navIcon2} alt="ATAA" /></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('connect')}><span>Contact</span></button>
+                        <a className="btn" href="#contact">Contact</a>
                     </span>
                 </Navbar.Collapse>
             </Container>

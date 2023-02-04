@@ -10,11 +10,11 @@ import bg_jeuxvideo from '../assets/images/backgrounds/bg_jeuxvideo.png'
 import bg_sme from '../assets/images/backgrounds/bg_sme.png'
 
 import { Nav, Row, Tab, Col, Container } from 'react-bootstrap';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export const WorkPage = () => {
 
-    const [page, setPage] = useState('doublage');
+    const [, setPage] = useState('doublage');
     
     return (
         <section className="fullpage-nav travaux" id="travaux">
@@ -23,7 +23,7 @@ export const WorkPage = () => {
                     <Col className='proj-col'>
                     <h2>Mes travaux</h2>
                     <Tab.Container id="proj-tab" defaultActiveKey="doublage">
-                        <Nav variant="pills" defaultActiveKey="doublage" style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+                        <Nav variant="pills" className="nav" defaultActiveKey="doublage" style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
                             <Nav.Item>
                                 <Nav.Link eventKey="doublage" onClick={() => setPage('doublage')}>Doublages</Nav.Link>
                             </Nav.Item>
@@ -61,11 +61,11 @@ export const WorkPage = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="proj-img-5" src={bg_sme}/>
-            <img className="proj-img-4" src={bg_jeuxvideo}/>
-            <img className="proj-img-3" src={bg_voiceover}/>
-            <img className="proj-img-2" src={bg_soustitrage}/>
-            <img className="proj-img-1" src={bg_doublage}/>
+            <img className="proj-img-5" src={bg_sme} alt="Fond SME"/>
+            <img className="proj-img-4" src={bg_jeuxvideo} alt="Fond jeux vidéo"/>
+            <img className="proj-img-3" src={bg_voiceover} alt="Fond voice over"/>
+            <img className="proj-img-2" src={bg_soustitrage} alt="Fond sous-titrage"/>
+            <img className="proj-img-1" src={bg_doublage} alt="Dond doublage"/>
         </section>        
         );
 }

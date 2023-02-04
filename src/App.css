@@ -66,6 +66,10 @@ h6 {
   text-align: center;
 }
 
+@media (prefers-color-scheme: dark) {
+
+}
+
 /********************************
  * Pages navigation 
  ********************************/
@@ -77,6 +81,12 @@ h6 {
   width: 100vw;
   min-height: 100vh;
   padding-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+ .fullpage-nav {
+   scroll-snap-align: none;
+ }
 }
 
 #accueil {
@@ -127,12 +137,12 @@ nav.navbar.scrolled {
 }
 
 nav.navbar .social-icon,
-nav.navbar button {
+nav.navbar .btn {
   filter: invert(100%);
 }
 
 nav.navbar.scrolled .social-icon,
-nav.navbar.scrolled button {
+nav.navbar.scrolled .btn {
   filter: invert(0%);
 }
 
@@ -221,7 +231,7 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(98%) hue-rotate(345deg);
 }
 
-.navbar-text button {
+.navbar-text .btn {
   font-weight: 700;
   color: gainsboro;
   border: 2px solide gainsboro;
@@ -232,12 +242,7 @@ span.navbar-text {
   background-color: transparent;
   transition: 0.3s ease-in-out;
 }
-
-.navbar-text button span {
-  z-index: 1;
-}
-
-.navbar-text button::before {
+.navbar-text .btn::before {
   content: "";
   width: 0%;
   height: 100%;
@@ -249,11 +254,11 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.navbar-text button:hover {
+.navbar-text .btn:hover {
   color: rgb(0, 0, 0);
 }
 
-.navbar-text button:hover::before {
+.navbar-text .btn:hover::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -389,14 +394,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /********************************
  * Work pages
  ********************************/
-
-.travaux h2 {
+ 
+.travaux h2,
+.contact h2 {
   color: rgb(0, 0, 0);
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 45;
   font-weight: 700;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .travaux {
+    background-color: #cdccd0;
+  }
 }
 
 .v p {
@@ -545,12 +557,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #proj-tab-tab-voiceover,
 #proj-tab-tab-jeuxvideo,
 #proj-tab-tab-sme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff40;
   padding: 5px;
   width: 10rem;
   height: 3rem;
   line-height: 1;
   font-size: 16px;
+  color: black;
+  margin: 5px;
+  border-radius: 1rem;
+  box-shadow: 0 0 3px #0e0e1030;
+  transition: 0.2s ease-in-out;
 }
+
+#proj-tab-tab-doublage.nav-link:hover,
+#proj-tab-tab-soustitrage.nav-link:hover,
+#proj-tab-tab-voiceover.nav-link:hover,
+#proj-tab-tab-jeuxvideo.nav-link:hover,
+#proj-tab-tab-sme.nav-link:hover {
+  background-color: #ffffffcb;
+}
+
+#proj-tab-tab-doublage.nav-link.active,
+#proj-tab-tab-soustitrage.nav-link.active,
+#proj-tab-tab-voiceover.nav-link.active,
+#proj-tab-tab-jeuxvideo.nav-link.active,
+#proj-tab-tab-sme.nav-link.active {
+  background-image: linear-gradient(45deg, rgb(212, 202, 255), #ffffff);
+  scale: 1.05;
+  box-shadow: 0 .5px 3px black;
+  font-weight: 600;
+}
+
+.tab-pane {
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+.tab-pane.active {
+  opacity: 1;
+}
+
 
 .proj-img-1,
 .proj-img-2,
@@ -561,8 +610,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-width: 100vw;
+  min-height: 100vh;
   position: absolute;
-  bottom: 0;
+  bottom: 100vh;
   right: 0;
   z-index: -4;
   transition: 3s ease-in-out;
