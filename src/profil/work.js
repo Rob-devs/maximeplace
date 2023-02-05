@@ -6,7 +6,7 @@ const RE = "Résumé";
 module.exports = {
 
     doublages: [{
-        title: "Lookism",
+        title: "dizjidjzid",
         description: "Script FR de deux épisodes de la série",
         date: "2022",
         type: "Anime",

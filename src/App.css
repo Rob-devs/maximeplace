@@ -40,6 +40,8 @@
   box-sizing: border-box;
   scroll-snap-type: y mandatory;
   scroll-padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 body {
@@ -395,8 +397,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  * Work pages
  ********************************/
  
-.travaux h2,
-.contact h2 {
+.travaux h2 {
   color: rgb(0, 0, 0);
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -669,4 +670,112 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   80%, 40% {
     opacity: 0;
   }
+}
+
+/********************************
+ * Contact page
+ ********************************/
+
+.contact {
+  background-image: url("assets/images/backgrounds/bg_contact.png");
+  background-position: center;
+  background-position-y: bottom;
+  background-size: cover;
+ }
+ 
+.contact h2 {
+  color: rgb(225, 225, 225);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 45;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+.contact h4 {
+  color: rgb(196, 196, 196);
+  font-weight: 200;
+}
+
+.contact .email {
+  min-height: 15rem;display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact button {
+  background-color: rgb(212, 202, 255, 0.2);
+  width: 20rem;
+  height: 5rem;
+  line-height: 1;
+  font-weight: 200;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  box-shadow: 0 1px 6px #0e0e10;
+  transition: 0.2s ease-in-out;
+}
+
+.contact button:hover {
+  background-color: rgb(212, 202, 255, 0.6);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+  color: white;
+  align-items: center;
+  width: 100vw;
+  opacity: 0.7;
+}
+
+.infos {
+  margin-bottom: 3rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos img {
+  filter: invert(100%);
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+
+.infos .col {
+  width: 15rem;
+  margin: 0 8px;
+  background-color: #ffffff10;
+  border-radius: 1rem;
+  padding: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.infos .row {
+  position: relative;
+  max-width: 50rem;
+  --bs-gutter-x: 0;
+}
+
+
+.infos h4 {
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 0 0 3px black;
+}
+
+.infos .col:hover {
+  background-color: #ffffff20;
+}
+
+.infos .col:hover img {
+  opacity: 1;
+  transform: scale(1.05);
 }
