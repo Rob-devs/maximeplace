@@ -14,7 +14,7 @@ export const ContactPage = () => {
     return (<section className="fullpage-nav contact" id="contact">
         <h2>Me contacter</h2>
         <div className="email" >
-          <button onClick={() => sendEmail()}>Envoyez-moi un mail</button>
+          <a href="#contact" className="btn" onClick={() => sendEmail()}>Envoyez-moi un mail</a>
         </div>
         <div className='infos'>
           <Row>
