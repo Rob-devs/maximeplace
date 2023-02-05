@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maximeplace/static/css/main.a1d55256.css",
-    "main.js": "/maximeplace/static/js/main.eb26a31d.js",
+    "main.css": "/maximeplace/static/css/main.f2c20612.css",
+    "main.js": "/maximeplace/static/js/main.84008ba8.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/imgDoublage1.png": "/maximeplace/static/media/imgDoublage1.30c48945ea7bb73a1713.png",
     "static/media/PigGoatBananaCricket.png": "/maximeplace/static/media/PigGoatBananaCricket.beb78224a2978a8f9aa0.png",
@@ -25,12 +25,12 @@
     "index.html": "/maximeplace/index.html",
     "static/media/ataa.svg": "/maximeplace/static/media/ataa.ce4fb1d487acb0565d44d34ea11c0319.svg",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
-    "main.a1d55256.css.map": "/maximeplace/static/css/main.a1d55256.css.map",
-    "main.eb26a31d.js.map": "/maximeplace/static/js/main.eb26a31d.js.map",
+    "main.f2c20612.css.map": "/maximeplace/static/css/main.f2c20612.css.map",
+    "main.84008ba8.js.map": "/maximeplace/static/js/main.84008ba8.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d55256.css",
-    "static/js/main.eb26a31d.js"
+    "static/css/main.f2c20612.css",
+    "static/js/main.84008ba8.js"
   ]
 }
