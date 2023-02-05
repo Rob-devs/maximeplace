@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/maximeplace/static/css/main.ddc505fd.css",
-    "main.js": "/maximeplace/static/js/main.fb035c8e.js",
+    "main.css": "/maximeplace/static/css/main.a1d55256.css",
+    "main.js": "/maximeplace/static/js/main.eb26a31d.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/imgDoublage1.png": "/maximeplace/static/media/imgDoublage1.30c48945ea7bb73a1713.png",
     "static/media/PigGoatBananaCricket.png": "/maximeplace/static/media/PigGoatBananaCricket.beb78224a2978a8f9aa0.png",
     "static/media/CV_FR_MaximePlace.pdf": "/maximeplace/static/media/CV_FR_MaximePlace.1b1278fe37a425a43ab3.pdf",
     "static/media/PP.png": "/maximeplace/static/media/PP.3c9a449a57fc5f214a4d.png",
     "static/media/bg_sme.png": "/maximeplace/static/media/bg_sme.915f66104764ba941f3a.png",
+    "static/media/bg_contact.png": "/maximeplace/static/media/bg_contact.b048ea94dd3e1a3b9411.png",
     "static/media/bg_banner.png": "/maximeplace/static/media/bg_banner.f9dc5aa9a1dc541f85e6.png",
     "static/media/bg_soustitrage.png": "/maximeplace/static/media/bg_soustitrage.d45b46bf9817b94c7179.png",
     "static/media/bg_doublage.png": "/maximeplace/static/media/bg_doublage.995fa55d67492324abbb.png",
@@ -20,15 +21,16 @@
     "static/media/CentraNo2-Medium.ttf": "/maximeplace/static/media/CentraNo2-Medium.e607ab3a57d6d01aabd4.ttf",
     "static/media/go_down.png": "/maximeplace/static/media/go_down.6320669c1b9604bf9344.png",
     "static/media/logo.png": "/maximeplace/static/media/logo.b2c4cc387d1517228a03.png",
+    "static/media/tel.png": "/maximeplace/static/media/tel.9a8aa510f7a994a57b95.png",
     "index.html": "/maximeplace/index.html",
     "static/media/ataa.svg": "/maximeplace/static/media/ataa.ce4fb1d487acb0565d44d34ea11c0319.svg",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
-    "main.ddc505fd.css.map": "/maximeplace/static/css/main.ddc505fd.css.map",
-    "main.fb035c8e.js.map": "/maximeplace/static/js/main.fb035c8e.js.map",
+    "main.a1d55256.css.map": "/maximeplace/static/css/main.a1d55256.css.map",
+    "main.eb26a31d.js.map": "/maximeplace/static/js/main.eb26a31d.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddc505fd.css",
-    "static/js/main.fb035c8e.js"
+    "static/css/main.a1d55256.css",
+    "static/js/main.eb26a31d.js"
   ]
 }
