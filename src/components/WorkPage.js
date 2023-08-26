@@ -14,10 +14,15 @@ import { useState } from "react";
 
 export const WorkPage = () => {
 
-    const [, setPage] = useState('doublage');
+    const [page, setPage] = useState(bg_doublage);
     
     return (
-        <section className="fullpage-nav travaux" id="travaux">
+        <section className="fullpage-nav travaux" id="travaux" style={{
+            backgroundImage: `url(${page})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+          }}>
             <Container>
                 <Row>
                     <Col className='proj-col'>
@@ -25,19 +30,19 @@ export const WorkPage = () => {
                     <Tab.Container id="proj-tab" defaultActiveKey="doublage">
                         <Nav variant="pills" className="nav" defaultActiveKey="doublage" style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
                             <Nav.Item>
-                                <Nav.Link eventKey="doublage" onClick={() => setPage('doublage')}>Doublages</Nav.Link>
+                                <Nav.Link eventKey="doublage" onClick={() => setPage(bg_doublage)}>Doublages</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="soustitrage" onClick={() => setPage('soustitrage')}>Sous-titrages</Nav.Link>
+                                <Nav.Link eventKey="soustitrage" onClick={() => setPage(bg_soustitrage)}>Sous-titrages</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="voiceover" onClick={() => setPage('voiceover')}>Voice over</Nav.Link>
+                                <Nav.Link eventKey="voiceover" onClick={() => setPage(bg_voiceover)}>Voice over</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="jeuxvideo" onClick={() => setPage('jeuxvideo')}>Jeux vidéos</Nav.Link>
+                                <Nav.Link eventKey="jeuxvideo" onClick={() => setPage(bg_jeuxvideo)}>Jeux vidéos</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sme" onClick={() => setPage('sme')}>Sourds et malentendants</Nav.Link>
+                                <Nav.Link eventKey="sme" onClick={() => setPage(bg_sme)}>Sourds et malentendants</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>
@@ -61,11 +66,6 @@ export const WorkPage = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="proj-img-5" src={bg_sme} alt="Fond SME"/>
-            <img className="proj-img-4" src={bg_jeuxvideo} alt="Fond jeux vidéo"/>
-            <img className="proj-img-3" src={bg_voiceover} alt="Fond voice over"/>
-            <img className="proj-img-2" src={bg_soustitrage} alt="Fond sous-titrage"/>
-            <img className="proj-img-1" src={bg_doublage} alt="Dond doublage"/>
-        </section>        
+          </section>        
         );
 }

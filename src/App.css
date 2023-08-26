@@ -411,6 +411,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+#travaux {
+  padding-bottom: 5em;
+}
+
 .v p {
   width: 56%;
   text-align: center;
