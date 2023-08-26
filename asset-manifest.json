@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/maximeplace/static/css/main.91e740f5.css",
+    "main.css": "/maximeplace/static/css/main.6644af73.css",
     "main.js": "/maximeplace/static/js/main.d9ac7b3b.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/work_pig_goat_banana_cricket.png": "/maximeplace/static/media/work_pig_goat_banana_cricket.74d8466715d5f73e2468.png",
@@ -50,12 +50,12 @@
     "index.html": "/maximeplace/index.html",
     "static/media/ataa.svg": "/maximeplace/static/media/ataa.ce4fb1d487acb0565d44d34ea11c0319.svg",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
-    "main.91e740f5.css.map": "/maximeplace/static/css/main.91e740f5.css.map",
+    "main.6644af73.css.map": "/maximeplace/static/css/main.6644af73.css.map",
     "main.d9ac7b3b.js.map": "/maximeplace/static/js/main.d9ac7b3b.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91e740f5.css",
+    "static/css/main.6644af73.css",
     "static/js/main.d9ac7b3b.js"
   ]
 }
