@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maximeplace/static/css/main.6644af73.css",
-    "main.js": "/maximeplace/static/js/main.9a4b2e9a.js",
+    "main.css": "/maximeplace/static/css/main.91e740f5.css",
+    "main.js": "/maximeplace/static/js/main.5a625611.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/work_pig_goat_banana_cricket.png": "/maximeplace/static/media/work_pig_goat_banana_cricket.74d8466715d5f73e2468.png",
     "static/media/work_fear_thy_neighbour.png": "/maximeplace/static/media/work_fear_thy_neighbour.e4084fcc3070b81a76df.png",
@@ -15,14 +15,18 @@
     "static/media/work_mtv_cribs.png": "/maximeplace/static/media/work_mtv_cribs.af864fe5cebdbef00d09.png",
     "static/media/work_apocalypse_grain_de_ble.png": "/maximeplace/static/media/work_apocalypse_grain_de_ble.0af67a782655b8f8d47f.png",
     "static/media/work_tales_of_symphonia.png": "/maximeplace/static/media/work_tales_of_symphonia.ed8e2c831715f618a75b.png",
+    "static/media/work_oshi_no_ko.png": "/maximeplace/static/media/work_oshi_no_ko.bee86edc4926c6506dc5.png",
     "static/media/work_relayer.png": "/maximeplace/static/media/work_relayer.c05b1568e1ec380cd76b.png",
     "static/media/work_the_challenge.png": "/maximeplace/static/media/work_the_challenge.1f15221f7d1c883ff5a2.png",
     "static/media/work_invitation.png": "/maximeplace/static/media/work_invitation.9cef5246d8086001d7a3.png",
     "static/media/work_the_eminence_in_shadow.png": "/maximeplace/static/media/work_the_eminence_in_shadow.d48bae4505489da0642a.png",
     "static/media/work_mayans_mc.png": "/maximeplace/static/media/work_mayans_mc.1dbacb48c60becc498e7.png",
-    "static/media/CV_FR_MaximePlace.pdf": "/maximeplace/static/media/CV_FR_MaximePlace.1b1278fe37a425a43ab3.pdf",
+    "static/media/CV_FR_MaximePlace.pdf": "/maximeplace/static/media/CV_FR_MaximePlace.4127014cfaffa2d21871.pdf",
+    "static/media/work_malum.png": "/maximeplace/static/media/work_malum.bb15672bd6a08e0d786e.png",
+    "static/media/work_the_rumble_fish_2.png": "/maximeplace/static/media/work_the_rumble_fish_2.124c761ea3f73cf52316.png",
     "static/media/PP.png": "/maximeplace/static/media/PP.3c9a449a57fc5f214a4d.png",
     "static/media/bg_sme.png": "/maximeplace/static/media/bg_sme.915f66104764ba941f3a.png",
+    "static/media/work_last_one_standing.png": "/maximeplace/static/media/work_last_one_standing.1e9bac8c44d48331fb33.png",
     "static/media/bg_contact.png": "/maximeplace/static/media/bg_contact.b048ea94dd3e1a3b9411.png",
     "static/media/work_immortality.png": "/maximeplace/static/media/work_immortality.7825b8d6135e54dea389.png",
     "static/media/work_icarly.png": "/maximeplace/static/media/work_icarly.1741c0171794729b1895.png",
@@ -30,6 +34,7 @@
     "static/media/bg_banner.png": "/maximeplace/static/media/bg_banner.f9dc5aa9a1dc541f85e6.png",
     "static/media/bg_soustitrage.png": "/maximeplace/static/media/bg_soustitrage.d45b46bf9817b94c7179.png",
     "static/media/bg_doublage.png": "/maximeplace/static/media/bg_doublage.995fa55d67492324abbb.png",
+    "static/media/work_30_ans.png": "/maximeplace/static/media/work_30_ans.64fad3934ad82aa35454.png",
     "static/media/bg_voiceover.png": "/maximeplace/static/media/bg_voiceover.c2d40872005cb8c2b40e.png",
     "static/media/work_la_legende_de_spark.png": "/maximeplace/static/media/work_la_legende_de_spark.b848861772f9c5e7e1a2.png",
     "static/media/work_all_the_food_in_the_world.png": "/maximeplace/static/media/work_all_the_food_in_the_world.5ef277aa6cce4c4b7f1d.png",
@@ -38,6 +43,8 @@
     "static/media/bg_jeuxvideo.png": "/maximeplace/static/media/bg_jeuxvideo.2d456682e6203cad7667.png",
     "static/media/work_bee_and_puppycat.png": "/maximeplace/static/media/work_bee_and_puppycat.8e8b61e190a7b662a242.png",
     "static/media/work_clique.png": "/maximeplace/static/media/work_clique.d20aff2cd53064446357.png",
+    "static/media/work_starfield.png": "/maximeplace/static/media/work_starfield.5b27ec3cd50e45a4ed28.png",
+    "static/media/work_glow_up.png": "/maximeplace/static/media/work_glow_up.90b9d069c8adfdd30949.png",
     "static/media/work_true_life_crime.png": "/maximeplace/static/media/work_true_life_crime.8248525ab6ea7d3e5989.png",
     "static/media/CentraNo2-Book.ttf": "/maximeplace/static/media/CentraNo2-Book.89a30f8e5b776bc654bd.ttf",
     "static/media/CentraNo2-Thin.ttf": "/maximeplace/static/media/CentraNo2-Thin.7d398cc82d583935412d.ttf",
@@ -47,15 +54,15 @@
     "static/media/go_down.png": "/maximeplace/static/media/go_down.6320669c1b9604bf9344.png",
     "static/media/logo.png": "/maximeplace/static/media/logo.b2c4cc387d1517228a03.png",
     "static/media/tel.png": "/maximeplace/static/media/tel.9a8aa510f7a994a57b95.png",
+    "static/media/ataa.svg": "/maximeplace/static/media/ataa.30455ad7c5b923c1f0ad1aa6dfe70803.svg",
     "index.html": "/maximeplace/index.html",
-    "static/media/ataa.svg": "/maximeplace/static/media/ataa.ce4fb1d487acb0565d44d34ea11c0319.svg",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
-    "main.6644af73.css.map": "/maximeplace/static/css/main.6644af73.css.map",
-    "main.9a4b2e9a.js.map": "/maximeplace/static/js/main.9a4b2e9a.js.map",
+    "main.91e740f5.css.map": "/maximeplace/static/css/main.91e740f5.css.map",
+    "main.5a625611.js.map": "/maximeplace/static/js/main.5a625611.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6644af73.css",
-    "static/js/main.9a4b2e9a.js"
+    "static/css/main.91e740f5.css",
+    "static/js/main.5a625611.js"
   ]
 }
