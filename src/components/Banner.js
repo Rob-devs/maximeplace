@@ -57,10 +57,10 @@ export const Banner = () => {
             <div>
                 <div>
                     <p>
-                        Traducteur audiovisuel depuis deux ans, je cherche à m'investir dans des projets de doublage,<br />
-                        de sous-titrage et de voice over. Je propose également du SME et de la traduction de jeux vidéo.<br />
-                        Je cherche avant tout des projets porteurs de sens, qui me passionnent, et dans lesquels<br />
-                        je peux m'investir pleinement.
+                        CV_FR_MaximePlaceAuteur de doublage et de sous-titrage depuis 4 ans, je propose également de la voice over,<br />
+                        du SME et de la traduction de jeux vidéo.<br />
+                        Je cherche avant tout des projets porteurs de sens, qui me passionnent et dans lesquels je peux m'investir pleinement.<br />
+                        Mon objectif est avant tout d'être au service d'une œuvre pour la transmettre le plus naturellement possible à votre audience.
                     </p>
                 </div>
             </div>
