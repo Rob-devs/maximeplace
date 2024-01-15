@@ -60,7 +60,7 @@ export const NavbarComp = () => {
                     <Nav className="me-auto">
                         <Nav.Link className={activeLink === 'accueil' ? 'active-item' : 'item'} href="#accueil">Accueil</Nav.Link>
                         <Nav.Link className='item' onClick={() => { handleDownload(); }} download={CV_FR_MaximePlace}>CV</Nav.Link>
-                        <Nav.Link className={activeLink === 'travaux' ? 'active-item' : 'item'} href="#travaux">Travaux</Nav.Link>
+                        <Nav.Link className={activeLink === 'travaux' ? 'active-item' : 'item'} href="#travaux">Projets</Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">

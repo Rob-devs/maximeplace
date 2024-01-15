@@ -26,23 +26,23 @@ export const WorkPage = () => {
             <Container>
                 <Row>
                     <Col className='proj-col'>
-                    <h2>Mes travaux</h2>
+                    <h2>Quelques projets...</h2>
                     <Tab.Container id="proj-tab" defaultActiveKey="doublage">
                         <Nav variant="pills" className="nav" defaultActiveKey="doublage" style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
                             <Nav.Item>
-                                <Nav.Link eventKey="doublage" onClick={() => setPage(bg_doublage)}>Doublages</Nav.Link>
+                                <Nav.Link eventKey="doublage" onClick={() => setPage(bg_doublage)}>Doublage</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="soustitrage" onClick={() => setPage(bg_soustitrage)}>Sous-titrages</Nav.Link>
+                                <Nav.Link eventKey="soustitrage" onClick={() => setPage(bg_soustitrage)}>Sous-titrage</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="voiceover" onClick={() => setPage(bg_voiceover)}>Voice over</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="jeuxvideo" onClick={() => setPage(bg_jeuxvideo)}>Jeux vidéos</Nav.Link>
+                                <Nav.Link eventKey="jeuxvideo" onClick={() => setPage(bg_jeuxvideo)}>Jeux vidéo</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link eventKey="sme" onClick={() => setPage(bg_sme)}>Sourds et malentendants</Nav.Link>
+                                <Nav.Link eventKey="sme" onClick={() => setPage(bg_sme)}>Sourd et malentendant</Nav.Link>
                             </Nav.Item>
                         </Nav>
                         <Tab.Content>
