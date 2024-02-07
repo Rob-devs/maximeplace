@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maximeplace/static/css/main.91e740f5.css",
-    "main.js": "/maximeplace/static/js/main.d43a83ba.js",
+    "main.js": "/maximeplace/static/js/main.759ca6e8.js",
     "static/js/787.94ee80fa.chunk.js": "/maximeplace/static/js/787.94ee80fa.chunk.js",
     "static/media/work_pig_goat_banana_cricket.png": "/maximeplace/static/media/work_pig_goat_banana_cricket.74d8466715d5f73e2468.png",
     "static/media/work_fear_thy_neighbour.png": "/maximeplace/static/media/work_fear_thy_neighbour.e4084fcc3070b81a76df.png",
@@ -58,11 +58,11 @@
     "static/media/ataa.svg": "/maximeplace/static/media/ataa.ce4fb1d487acb0565d44d34ea11c0319.svg",
     "static/media/linkedin.svg": "/maximeplace/static/media/linkedin.d35cb3ceaded38a478c4284e7d1d6249.svg",
     "main.91e740f5.css.map": "/maximeplace/static/css/main.91e740f5.css.map",
-    "main.d43a83ba.js.map": "/maximeplace/static/js/main.d43a83ba.js.map",
+    "main.759ca6e8.js.map": "/maximeplace/static/js/main.759ca6e8.js.map",
     "787.94ee80fa.chunk.js.map": "/maximeplace/static/js/787.94ee80fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91e740f5.css",
-    "static/js/main.d43a83ba.js"
+    "static/js/main.759ca6e8.js"
   ]
 }
